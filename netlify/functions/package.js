@@ -14,7 +14,7 @@ exports.handler = async function(event, context) {
     body: JSON.stringify(docJson),
     headers: {
       'Content-Type': 'application/json',
-      'Cache-Control': 'public, max-age: 31540000'
+      'Cache-Control': 'public, max-age=31540000'
     }
   }
 }
