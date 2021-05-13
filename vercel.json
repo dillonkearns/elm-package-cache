@@ -1,0 +1,20 @@
+{
+    "rewrites": [
+        {
+            "source": "/about",
+            "destination": "/about-our-company.html"
+        },
+        {
+            "source": "/resize/:width/:height",
+            "destination": "/api/sharp"
+        },
+        {
+            "source": "/user/:id",
+            "destination": "/api/user"
+        },
+        {
+            "source": "/packages/:match*",
+            "destination": "/api/packages"
+        }
+    ]
+}
