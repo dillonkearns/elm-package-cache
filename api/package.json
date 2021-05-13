@@ -13,6 +13,7 @@
     "undici": "^3.3.6"
   },
   "dependencies": {
-    "@netlify/functions": "^0.7.2"
+    "@netlify/functions": "^0.7.2",
+    "node-fetch": "^2.6.1"
   }
 }
