@@ -26,6 +26,6 @@ module.exports = async (req, res) => {
   const response = await fetch(url);
   const docJson = await response.json();
   // res.setHeader("Content-Type", "application/json");
-  res.setHeader("Cache-Control", "public,max-age=31540000,immutable");
+  res.setHeader("Cache-Control", "public,s-maxage=31536000,immutable");
   res.json(docJson);
 };
