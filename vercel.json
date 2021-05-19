@@ -15,6 +15,10 @@
         {
             "source": "/packages/:match*",
             "destination": "/api/packages"
+        },
+        {
+            "source": "/search.json",
+            "destination": "/api/search.json"
         }
     ]
 }
